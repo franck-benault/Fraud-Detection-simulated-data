@@ -1,6 +1,8 @@
 
 import pickle
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 
 def getTarget():
@@ -38,5 +40,16 @@ def getDataLearningAndValidation():
     dfValidation = pd.concat(list, ignore_index=True)
     return dfLearning,dfValidation
 
-
+def show_confusion_matrix(y_test,y_pred,title):
+    cm = pd.crosstab(y_test, y_pred, rownames=['Actual'], colnames=['Predicted'])
+    fig, (ax1) = plt.subplots(ncols=1, figsize=(5,5))
+    sns.heatmap(cm, 
+    xticklabels=['Not Fraud', 'Fraud'],
+    yticklabels=['Not Fraud', 'Fraud'],
+    annot=True,ax=ax1,
+    fmt='d',
+    linewidths=.2,linecolor="Darkblue", cmap="Blues")
+    cm.style.format("{:20}")
+    plt.title(title, fontsize=14)
+    plt.show()
     
