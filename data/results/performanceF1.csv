@@ -2,4 +2,4 @@ Package,Name,Hyperparameters,F1
 03-sklearn.dummy,DummyClassifier,01-uniform,0.0102
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.1511
 05-sklearn.tree,Decision Tree,02-After tuning,0.5744
-05-sklearn.tree,Decision Tree,03-Random Undersampling,0.5612
+05-sklearn.tree,Decision Tree,03-Random Undersampling,0.5421
