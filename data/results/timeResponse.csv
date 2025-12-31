@@ -3,3 +3,4 @@ Package,Name,Hyperparameters,Learning time
 05-sklearn.tree,Decision Tree,02-After tuning,0.3
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.1
 05-sklearn.tree,Decision Tree,04-Random Oversampling,0.7
+07-sklearn.ensemble,Bagging,02-After tuning,89.2
