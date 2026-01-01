@@ -3,5 +3,6 @@ Package,Name,Hyperparameters,F1
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.1511
 05-sklearn.tree,Decision Tree,02-After tuning,0.5744
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.5421
-05-sklearn.tree,Decision Tree,04-Random Oversampling,0.5596
+05-sklearn.tree,Decision Tree,04-Random Oversampling,0.5803
 07-sklearn.ensemble,Bagging,02-After tuning,0.5654
+07-sklearn.ensemble,Bagging,04-Random Oversampling,0.5654
