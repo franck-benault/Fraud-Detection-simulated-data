@@ -41,8 +41,8 @@ def save_time_response_result(timeResponse):
     timeResponse.to_csv('../data/results/timeResponse.csv', index=False) 
 
 def update_time_response_result(package, name,hyperparameters, learningTime):
-    #learningTime=int(learningTime)
-    learningTime=round(learningTime,1)
+    learningTime=int(learningTime)
+    #learningTime=round(learningTime,1)
 
     timeResponsePandas = load_time_response_result()
     
