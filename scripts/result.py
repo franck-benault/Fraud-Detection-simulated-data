@@ -73,7 +73,7 @@ def update_learning_test_result(package, name, hyperparameters, F1Learning, F1Te
     #learningTime=int(learningTime)
     F1Learning=round(F1Learning,3)
     F1Test=round(F1Test,3)
-    diff=F1Learning-F1Test
+    diff=round(F1Learning-F1Test,3)
 
     timeResponsePandas = load_learning_test_result()
     
