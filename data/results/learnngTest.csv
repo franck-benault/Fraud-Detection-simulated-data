@@ -1,0 +1,4 @@
+Package,Name,Hyperparameters,diff,F1Learning,F1Test
+04-sklearn.naive_bayes,GaussianNB,01-Default,0.004,0.115,0.111
+05-sklearn.tree,Decision Tree,02-After tuning,-0.068,0.582,0.65
+07-sklearn.ensemble,Bagging,04-Random Oversampling,0.366,1.0,0.634
