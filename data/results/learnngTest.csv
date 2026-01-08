@@ -4,6 +4,7 @@ Package,Name,Hyperparameters,diff,F1Learning,F1Test
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.045,0.777,0.732
 05-sklearn.tree,Decision Tree,04-Random Oversampling,0.072,0.867,0.795
 06-sklearn.ensemble,RandomForest,02-After tuning,0.067,0.822,0.755
+06-sklearn.ensemble,RandomForest,03-Random Undersampling,0.06,0.818,0.758
 07-sklearn.ensemble,Bagging,02-After tuning,0.218,0.999,0.781
 07-sklearn.ensemble,Bagging,03-Random Undersampling,0.219,1.0,0.781
 07-sklearn.ensemble,Bagging,04-Random Oversampling,0.202,1.0,0.798
