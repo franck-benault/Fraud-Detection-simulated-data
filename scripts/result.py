@@ -88,6 +88,6 @@ def update_learning_test_result(package, name, hyperparameters, F1Learning, F1Te
         timeResponsePandas.loc[index, 'F1Learning']=F1Learning
         timeResponsePandas.loc[index, 'F1Test']=F1Test
     else:
-        timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,F1Learning,F1Test,diff]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
+        timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,diff,F1Learning,F1Test]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
 
     save_learning_test_result(timeResponsePandas)
