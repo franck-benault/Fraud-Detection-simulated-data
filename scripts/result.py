@@ -91,3 +91,30 @@ def update_learning_test_result(package, name, hyperparameters, F1Learning, F1Te
         timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,diff,F1Learning,F1Test]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
 
     save_learning_test_result(timeResponsePandas)
+
+##-------------------
+
+def load_hyperparameters_result():
+    usecols = ['Package','Name','Hyperparameters','values']
+    timeResponse = pd.read_csv("../data/results/hyperparameters.csv", usecols=usecols)
+    timeResponse=timeResponse.sort_values(["Package", "Name","Hyperparameters"])
+    return timeResponse
+
+def save_hyperparameters_result(timeResponse): 
+    timeResponse.to_csv('../data/results/hyperparameters.csv', index=False) 
+
+def update_hyperparameters_result(package, name, hyperparameters, values): 
+    timeResponsePandas =  load_hyperparameters_result()
+    
+    res=timeResponsePandas[(timeResponsePandas['Package']==package) 
+        & (timeResponsePandas['Name']==name)
+        & (timeResponsePandas['Hyperparameters']==hyperparameters)]
+    #print(res.shape[0])
+    if (res.shape[0]>0):
+        index=res.index[0]
+        print('trace')
+        timeResponsePandas.loc[index, 'values']=str(values)
+    else:
+        timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,values]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
+
+    save_hyperparameters_result(timeResponsePandas)
