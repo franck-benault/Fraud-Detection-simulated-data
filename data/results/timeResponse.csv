@@ -1,4 +1,5 @@
 Package,Name,Hyperparameters,Learning time
+05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,0.0
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
 05-sklearn.tree,Decision Tree,02-After tuning,0.0
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.0

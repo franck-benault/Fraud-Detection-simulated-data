@@ -4,7 +4,7 @@ Package,Name,Hyperparameters,values
 05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 2}"
 05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 3}"
 05-sklearn.tree,Decision Tree,05-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 3}"
-05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 2, 'min_samples_leaf': 2, 'min_samples_split': 11}"
+05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 6}"
 06-sklearn.ensemble,RandomForest,02-After tuning,"{'max_depth': 12, 'n_estimators': 47}"
 06-sklearn.ensemble,RandomForest,03-Random Undersampling,"{'max_depth': 10, 'n_estimators': 98}"
 06-sklearn.ensemble,RandomForest,04-Random Oversampling,"{'max_depth': 12, 'n_estimators': 68}"
