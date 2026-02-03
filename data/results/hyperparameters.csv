@@ -1,17 +1,17 @@
-Package,Name,Hyperparameters,values
-05-sklearn.tree,Decision Tree,02-After tuning,"{'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}"
-05-sklearn.tree,Decision Tree,03-Random Undersampling,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_leaf': 3, 'min_samples_split': 14}"
-05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 2}"
-05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 3}"
-05-sklearn.tree,Decision Tree,05-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 3}"
-05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 6}"
-06-sklearn.ensemble,RandomForest,02-After tuning,"{'max_depth': 12, 'n_estimators': 47}"
-06-sklearn.ensemble,RandomForest,03-Random Undersampling,"{'max_depth': 10, 'n_estimators': 98}"
-06-sklearn.ensemble,RandomForest,04-Random Oversampling,"{'max_depth': 12, 'n_estimators': 68}"
-06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 5, 'n_estimators': 103}"
-06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 227}"
-07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 115}
-07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 89}
-07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 150}
-07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 362}
-07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 58}
+Package,Name,Hyperparameters,values,Scaler
+05-sklearn.tree,Decision Tree,02-After tuning,"{'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}",
+05-sklearn.tree,Decision Tree,03-Random Undersampling,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_leaf': 3, 'min_samples_split': 14}",
+05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 2}",
+05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 8, 'min_samples_split': 3}",MinMaxScaler
+05-sklearn.tree,Decision Tree,05-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 3}",
+05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 6}",
+06-sklearn.ensemble,RandomForest,02-After tuning,"{'max_depth': 12, 'n_estimators': 47}",
+06-sklearn.ensemble,RandomForest,03-Random Undersampling,"{'max_depth': 10, 'n_estimators': 98}",
+06-sklearn.ensemble,RandomForest,04-Random Oversampling,"{'max_depth': 12, 'n_estimators': 68}",
+06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 5, 'n_estimators': 103}",
+06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 227}",
+07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 115},
+07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 89},
+07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 150},
+07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 362},
+07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 58},

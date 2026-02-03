@@ -95,7 +95,7 @@ def update_learning_test_result(package, name, hyperparameters, F1Learning, F1Te
 ##-------------------
 
 def load_hyperparameters_result():
-    usecols = ['Package','Name','Hyperparameters','values']
+    usecols = ['Package','Name','Hyperparameters','Scaler','values']
     timeResponse = pd.read_csv("../data/results/hyperparameters.csv", usecols=usecols)
     timeResponse=timeResponse.sort_values(["Package", "Name","Hyperparameters"])
     return timeResponse
@@ -103,7 +103,7 @@ def load_hyperparameters_result():
 def save_hyperparameters_result(timeResponse): 
     timeResponse.to_csv('../data/results/hyperparameters.csv', index=False) 
 
-def update_hyperparameters_result(package, name, hyperparameters, values): 
+def update_hyperparameters_result(package, name, hyperparameters, values, scaler): 
     timeResponsePandas =  load_hyperparameters_result()
     
     res=timeResponsePandas[(timeResponsePandas['Package']==package) 
@@ -114,6 +114,7 @@ def update_hyperparameters_result(package, name, hyperparameters, values):
         index=res.index[0]
         print('trace')
         timeResponsePandas.loc[index, 'values']=str(values)
+        timeResponsePandas.loc[index, 'Scaler']=str(scaler)
     else:
         timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,values]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
 
