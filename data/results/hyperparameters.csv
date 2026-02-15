@@ -11,6 +11,6 @@ Package,Name,Hyperparameters,values,Scaler
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 227}",StandardScaler
 07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 115},
 07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 89},
-07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 150},None
-07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 362},
+07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 150},
+07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 362},StandardScaler
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 58},
