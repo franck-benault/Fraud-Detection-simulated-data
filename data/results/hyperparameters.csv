@@ -13,4 +13,4 @@ Package,Name,Hyperparameters,values,Scaler
 07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 89},
 07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 150},
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 362},StandardScaler
-07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 58},
+07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 58},StandardScaler
