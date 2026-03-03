@@ -16,3 +16,6 @@ Package,Name,Hyperparameters,F1
 07-sklearn.ensemble,Bagging,04-Random Oversampling,0.757
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,0.738
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.6877
+08-sklearn.ensemble,GradientBoosting,02-After tuning,0.7399
+08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,0.7841
+08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.732

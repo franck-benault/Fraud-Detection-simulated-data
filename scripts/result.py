@@ -116,6 +116,6 @@ def update_hyperparameters_result(package, name, hyperparameters, values, scaler
         timeResponsePandas.loc[index, 'values']=str(values)
         timeResponsePandas.loc[index, 'Scaler']=str(scaler)
     else:
-        timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,values]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
+        timeResponsePandas=pd.concat([pd.DataFrame([[package,name,hyperparameters,values,scaler]], columns=timeResponsePandas.columns), timeResponsePandas], ignore_index=True)
 
     save_hyperparameters_result(timeResponsePandas)
