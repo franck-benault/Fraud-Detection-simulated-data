@@ -1,10 +1,10 @@
 Package,Name,Hyperparameters,F1
-03-sklearn.dummy,DummyClassifier,01-uniform,0.0165
-04-sklearn.naive_bayes,GaussianNB,01-Default,0.1912
-05-sklearn.tree,Decision Tree,02-After tuning,0.7248
-05-sklearn.tree,Decision Tree,03-Random Undersampling,0.7004
-05-sklearn.tree,Decision Tree,04-Random Oversampling,0.7315
-05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,0.7026
+03-sklearn.dummy,DummyClassifier,01-uniform,0.0168
+04-sklearn.naive_bayes,GaussianNB,01-Default,0.1836
+05-sklearn.tree,Decision Tree,02-After tuning,0.7412
+05-sklearn.tree,Decision Tree,03-Random Undersampling,0.7108
+05-sklearn.tree,Decision Tree,04-Random Oversampling,0.6784
+05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,0.7039
 05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,0.6987
 06-sklearn.ensemble,RandomForest,02-After tuning,0.738
 06-sklearn.ensemble,RandomForest,03-Random Undersampling,0.7326

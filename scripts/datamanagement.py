@@ -15,6 +15,9 @@ def getPredictors(dataFrame):
     predictors.remove('TX_DATETIME')
     predictors.remove('CUSTOMER_ID')
     predictors.remove('TX_FRAUD_SCENARIO')
+    predictors.remove('TERMINAL_ID')
+    predictors.remove('TRANSACTION_ID')
+    
     return predictors
 
 
