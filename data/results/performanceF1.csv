@@ -6,16 +6,16 @@ Package,Name,Hyperparameters,F1
 05-sklearn.tree,Decision Tree,04-Random Oversampling,0.6784
 05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,0.7039
 05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,0.6987
-06-sklearn.ensemble,RandomForest,02-After tuning,0.738
-06-sklearn.ensemble,RandomForest,03-Random Undersampling,0.7326
-06-sklearn.ensemble,RandomForest,04-Random Oversampling,0.7397
-06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,0.7352
-06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,0.7471
-07-sklearn.ensemble,Bagging,02-After tuning,0.7305
-07-sklearn.ensemble,Bagging,03-Random Undersampling,0.7333
-07-sklearn.ensemble,Bagging,04-Random Oversampling,0.757
-07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,0.738
-07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.6877
+06-sklearn.ensemble,RandomForest,02-After tuning,0.7395
+06-sklearn.ensemble,RandomForest,03-Random Undersampling,0.754
+06-sklearn.ensemble,RandomForest,04-Random Oversampling,0.7293
+06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,0.7293
+06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,0.7107
+07-sklearn.ensemble,Bagging,02-After tuning,0.7516
+07-sklearn.ensemble,Bagging,03-Random Undersampling,0.7761
+07-sklearn.ensemble,Bagging,04-Random Oversampling,0.7505
+07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,0.7452
+07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.7031
 08-sklearn.ensemble,GradientBoosting,02-After tuning,0.7399
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,0.7841
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.732
