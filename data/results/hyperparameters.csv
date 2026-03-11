@@ -4,12 +4,13 @@ Package,Name,Hyperparameters,values,Scaler
 05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 7}",
 05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,"{'criterion': 'gini', 'max_depth': 4, 'min_samples_leaf': 2, 'min_samples_split': 2}",MinMaxScaler
 05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,"{'criterion': 'entropy', 'max_depth': 3, 'min_samples_leaf': 2, 'min_samples_split': 2}",MaxAbsScaler
+05-sklearn.tree,Decision Tree,07-Smote Oversampling,"{'criterion': 'entropy', 'max_depth': 9, 'min_samples_leaf': 2, 'min_samples_split': 2}",MinMaxScaler
 06-sklearn.ensemble,RandomForest,02-After tuning,"{'max_depth': 10, 'n_estimators': 193}",
 06-sklearn.ensemble,RandomForest,03-Random Undersampling,"{'max_depth': 10, 'n_estimators': 40}",
 06-sklearn.ensemble,RandomForest,04-Random Oversampling,"{'max_depth': 10, 'n_estimators': 600}",
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 10, 'n_estimators': 83}",RobustScaler
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 282}",RobustScaler
-07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 1000},None
+07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 998},None
 07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 58},
 07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 378},
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 315},RobustScaler
