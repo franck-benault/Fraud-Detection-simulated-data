@@ -21,4 +21,4 @@ Package,Name,Hyperparameters,values,Scaler
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1800}",
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1390}",RobustScaler
 08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 1430}",RobustScaler
-08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 2040}",MinMaxScaler
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 9, 'n_estimators': 1651}",MinMaxScaler

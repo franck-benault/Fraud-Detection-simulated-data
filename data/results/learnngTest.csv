@@ -22,4 +22,4 @@ Package,Name,Hyperparameters,diff,F1Learning,F1Test
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.202,1.0,0.798
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,0.218,0.998,0.78
 08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,0.224,1.0,0.776
-08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.178,0.991,0.813
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.198,1.0,0.802

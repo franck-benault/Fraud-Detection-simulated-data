@@ -22,4 +22,4 @@ Package,Name,Hyperparameters,Learning time
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,1556.0
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,1095.0
 08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,1029.0
-08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,937.0
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,1029.0
