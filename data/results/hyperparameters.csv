@@ -1,5 +1,4 @@
 Package,Name,Hyperparameters,values,Scaler
-08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 2040}",MinMaxScaler
 05-sklearn.tree,Decision Tree,02-After tuning,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_leaf': 9, 'min_samples_split': 2}",
 05-sklearn.tree,Decision Tree,03-Random Undersampling,"{'criterion': 'entropy', 'max_depth': 9, 'min_samples_leaf': 4, 'min_samples_split': 13}",
 05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 7}",
@@ -22,3 +21,4 @@ Package,Name,Hyperparameters,values,Scaler
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1800}",
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1390}",RobustScaler
 08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 1430}",RobustScaler
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 2040}",MinMaxScaler

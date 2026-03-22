@@ -1,5 +1,4 @@
 Package,Name,Hyperparameters,F1
-08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.7526
 03-sklearn.dummy,DummyClassifier,01-uniform,0.0168
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.1836
 05-sklearn.tree,Decision Tree,02-After tuning,0.7412
@@ -24,3 +23,4 @@ Package,Name,Hyperparameters,F1
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.75
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,0.7463
 08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,0.7443
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.7526
