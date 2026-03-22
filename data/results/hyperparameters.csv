@@ -1,4 +1,5 @@
 Package,Name,Hyperparameters,values,Scaler
+08-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 7, 'n_estimators': 2040}",MinMaxScaler
 05-sklearn.tree,Decision Tree,02-After tuning,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_leaf': 9, 'min_samples_split': 2}",
 05-sklearn.tree,Decision Tree,03-Random Undersampling,"{'criterion': 'entropy', 'max_depth': 9, 'min_samples_leaf': 4, 'min_samples_split': 13}",
 05-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 7}",
@@ -10,11 +11,14 @@ Package,Name,Hyperparameters,values,Scaler
 06-sklearn.ensemble,RandomForest,04-Random Oversampling,"{'max_depth': 10, 'n_estimators': 600}",
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 10, 'n_estimators': 83}",RobustScaler
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 282}",RobustScaler
-07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 998},None
+06-sklearn.ensemble,RandomForest,07-Smote Oversampling,"{'max_depth': 10, 'n_estimators': 377}",MinMaxScaler
+07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 998},
 07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 58},
 07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 378},
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 315},RobustScaler
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 70},RobustScaler
-08-sklearn.ensemble,GradientBoosting,02-After tuning,"{'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 300}",
-08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,"{'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 700}",
-08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.1, 'max_depth': 9, 'n_estimators': 400}",
+08-sklearn.ensemble,GradientBoosting,02-After tuning,"{'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 1673}",
+08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 1666}",
+08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1800}",
+08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1390}",RobustScaler
+08-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 1430}",RobustScaler
