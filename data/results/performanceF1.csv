@@ -13,11 +13,12 @@ Package,Name,Hyperparameters,F1
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,0.7293
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,0.7107
 06-sklearn.ensemble,RandomForest,07-Smote Oversampling,0.7483
-07-sklearn.ensemble,Bagging,02-After tuning,0.7516
-07-sklearn.ensemble,Bagging,03-Random Undersampling,0.7761
+07-sklearn.ensemble,Bagging,02-After tuning,0.7489
+07-sklearn.ensemble,Bagging,03-Random Undersampling,0.7638
 07-sklearn.ensemble,Bagging,04-Random Oversampling,0.7505
-07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,0.7452
-07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.7031
+07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,0.7468
+07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.7006
+07-sklearn.ensemble,Bagging,07-Smote Oversampling,0.7725
 08-sklearn.ensemble,GradientBoosting,02-After tuning,0.7335
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,0.7296
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.75

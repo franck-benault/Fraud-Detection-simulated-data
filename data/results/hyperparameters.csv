@@ -11,11 +11,12 @@ Package,Name,Hyperparameters,values,Scaler
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 10, 'n_estimators': 83}",RobustScaler
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 282}",RobustScaler
 06-sklearn.ensemble,RandomForest,07-Smote Oversampling,"{'max_depth': 10, 'n_estimators': 377}",MinMaxScaler
-07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 998},
-07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 58},
-07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 378},
-07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 315},RobustScaler
-07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 70},RobustScaler
+07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 687},
+07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 460},None
+07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 568},
+07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 326},RobustScaler
+07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 630},RobustScaler
+07-sklearn.ensemble,Bagging,07-Smote Oversampling,{'n_estimators': 438},RobustScaler
 08-sklearn.ensemble,GradientBoosting,02-After tuning,"{'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 1673}",
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 1666}",
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1800}",
