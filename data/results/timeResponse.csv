@@ -1,24 +1,24 @@
 Package,Name,Hyperparameters,Learning time
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
-05-sklearn.tree,Decision Tree,02-After tuning,0.0
+05-sklearn.tree,Decision Tree,02-After tuning,1.0
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.0
 05-sklearn.tree,Decision Tree,04-Random Oversampling,0.0
 05-sklearn.tree,Decision Tree,05-NearMissV1 Undersampling,0.0
 05-sklearn.tree,Decision Tree,06-NearMissV2 Undersampling,0.0
 05-sklearn.tree,Decision Tree,07-Smote Oversampling,1.0
-06-sklearn.ensemble,RandomForest,02-After tuning,25.0
+06-sklearn.ensemble,RandomForest,02-After tuning,22.0
 06-sklearn.ensemble,RandomForest,03-Random Undersampling,4.0
 06-sklearn.ensemble,RandomForest,04-Random Oversampling,71.0
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,9.0
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,12.0
 06-sklearn.ensemble,RandomForest,07-Smote Oversampling,62.0
-07-sklearn.ensemble,Bagging,02-After tuning,650.0
+07-sklearn.ensemble,Bagging,02-After tuning,812.0
 07-sklearn.ensemble,Bagging,03-Random Undersampling,505.0
 07-sklearn.ensemble,Bagging,04-Random Oversampling,897.0
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,554.0
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,993.0
 07-sklearn.ensemble,Bagging,07-Smote Oversampling,462.0
-08-sklearn.ensemble,GradientBoosting,02-After tuning,808.0
+08-sklearn.ensemble,GradientBoosting,02-After tuning,813.0
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,414.0
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,1556.0
 08-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,1095.0
