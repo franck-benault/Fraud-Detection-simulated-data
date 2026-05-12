@@ -1,5 +1,6 @@
 Package,Name,Hyperparameters,Learning time
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
+05-sklearn.linear_model,Logistic Regression,02-After tuning,1.0
 05-sklearn.tree,Decision Tree,02-After tuning,0.0
 05-sklearn.tree,Decision Tree,03-Random Undersampling,0.0
 05-sklearn.tree,Decision Tree,04-Random Oversampling,0.0
