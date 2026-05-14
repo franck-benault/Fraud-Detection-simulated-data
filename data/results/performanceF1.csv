@@ -14,6 +14,7 @@ Package,Name,Hyperparameters,F1
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,0.7293
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,0.7107
 06-sklearn.ensemble,RandomForest,07-Smote Oversampling,0.7483
+06-sklearn.neighbors,KNeighborsClassifier,02-After tuning,0.6732
 07-sklearn.ensemble,Bagging,02-After tuning,0.7489
 07-sklearn.ensemble,Bagging,03-Random Undersampling,0.7638
 07-sklearn.ensemble,Bagging,04-Random Oversampling,0.7505

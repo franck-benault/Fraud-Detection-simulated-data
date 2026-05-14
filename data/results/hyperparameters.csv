@@ -12,6 +12,7 @@ Package,Name,Hyperparameters,values,Scaler
 06-sklearn.ensemble,RandomForest,05-NearMissV1 Undersampling,"{'max_depth': 10, 'n_estimators': 83}",RobustScaler
 06-sklearn.ensemble,RandomForest,06-NearMissV2 Undersampling,"{'max_depth': 4, 'n_estimators': 282}",RobustScaler
 06-sklearn.ensemble,RandomForest,07-Smote Oversampling,"{'max_depth': 10, 'n_estimators': 377}",MinMaxScaler
+06-sklearn.neighbors,KNeighborsClassifier,02-After tuning,{'n_neighbors': 3},StandardScaler
 07-sklearn.ensemble,Bagging,02-After tuning,{'n_estimators': 673},
 07-sklearn.ensemble,Bagging,03-Random Undersampling,{'n_estimators': 460},
 07-sklearn.ensemble,Bagging,04-Random Oversampling,{'n_estimators': 568},
