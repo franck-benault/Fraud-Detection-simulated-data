@@ -19,6 +19,7 @@ Package,Name,Hyperparameters,values,Scaler
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,{'n_estimators': 326},RobustScaler
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,{'n_estimators': 630},RobustScaler
 07-sklearn.ensemble,Bagging,07-Smote Oversampling,{'n_estimators': 450},RobustScaler
+07-sklearn.svm,SVC,02-After tuning,"{'kernel': 'rbf', 'gamma': 0.01, 'C': 1000}",StandardScaler
 08-sklearn.ensemble,GradientBoosting,02-After tuning,"{'learning_rate': 0.01, 'max_depth': 6, 'n_estimators': 1673}",
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,"{'learning_rate': 0.01, 'max_depth': 4, 'n_estimators': 1666}",
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1800}",

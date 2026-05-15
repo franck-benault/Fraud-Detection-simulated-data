@@ -20,6 +20,7 @@ Package,Name,Hyperparameters,Learning time
 07-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,554.0
 07-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,993.0
 07-sklearn.ensemble,Bagging,07-Smote Oversampling,462.0
+07-sklearn.svm,SVC,02-After tuning,48.0
 08-sklearn.ensemble,GradientBoosting,02-After tuning,813.0
 08-sklearn.ensemble,GradientBoosting,03-Random Undersampling,414.0
 08-sklearn.ensemble,GradientBoosting,04-Random Oversampling,1556.0
