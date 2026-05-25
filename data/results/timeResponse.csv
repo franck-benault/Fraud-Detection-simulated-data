@@ -21,9 +21,9 @@ Package,Name,Hyperparameters,Learning time
 10-sklearn.ensemble,Bagging,05-NearMissV1 Undersampling,557.0
 10-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,920.0
 10-sklearn.ensemble,Bagging,07-Smote Oversampling,746.0
-11-sklearn.ensemble,GradientBoosting,02-After tuning,813.0
-11-sklearn.ensemble,GradientBoosting,03-Random Undersampling,414.0
-11-sklearn.ensemble,GradientBoosting,04-Random Oversampling,1556.0
-11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,1095.0
-11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,1029.0
-11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,1029.0
+11-sklearn.ensemble,GradientBoosting,02-After tuning,1239.0
+11-sklearn.ensemble,GradientBoosting,03-Random Undersampling,682.0
+11-sklearn.ensemble,GradientBoosting,04-Random Oversampling,1606.0
+11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,1386.0
+11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,1379.0
+11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,1702.0

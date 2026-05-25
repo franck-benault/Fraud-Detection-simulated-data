@@ -23,8 +23,8 @@ Package,Name,Hyperparameters,F1
 10-sklearn.ensemble,Bagging,06-NearMissV2 Undersampling,0.7006
 10-sklearn.ensemble,Bagging,07-Smote Oversampling,0.7725
 11-sklearn.ensemble,GradientBoosting,02-After tuning,0.7335
-11-sklearn.ensemble,GradientBoosting,03-Random Undersampling,0.7296
-11-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.75
-11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,0.7463
+11-sklearn.ensemble,GradientBoosting,03-Random Undersampling,0.7284
+11-sklearn.ensemble,GradientBoosting,04-Random Oversampling,0.7528
+11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,0.75
 11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,0.7443
-11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.7588
+11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.7538
