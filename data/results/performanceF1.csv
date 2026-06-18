@@ -1,7 +1,9 @@
 Package,Name,Hyperparameters,F1
 03-sklearn.dummy,DummyClassifier,01-uniform,0.0179
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.1836
-05-sklearn.linear_model,Logistic Regression,02-After tuning,0.6731
+05-sklearn.linear_model,Logistic Regression,02-After tuning,0.6747
+05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,0.6747
+05-sklearn.linear_model,Logistic Regression,03-penalty-l1-lasso,0.6731
 06-sklearn.neighbors,KNeighborsClassifier,02-After tuning,0.6732
 07-sklearn.svm,SVC,02-After tuning,0.6651
 08-sklearn.tree,Decision Tree,02-After tuning,0.7412

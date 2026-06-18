@@ -1,6 +1,8 @@
 Package,Name,Hyperparameters,diff,F1Learning,F1Test
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.002,0.203,0.201
-05-sklearn.linear_model,Logistic Regression,02-After tuning,0.018,0.658,0.64
+05-sklearn.linear_model,Logistic Regression,02-After tuning,0.01,0.657,0.647
+05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,0.01,0.657,0.647
+05-sklearn.linear_model,Logistic Regression,03-penalty-l1-lasso,0.017,0.657,0.64
 06-sklearn.neighbors,KNeighborsClassifier,02-After tuning,0.056,0.736,0.68
 07-sklearn.svm,SVC,02-After tuning,0.094,0.826,0.732
 08-sklearn.tree,Decision Tree,02-After tuning,0.038,0.789,0.751
