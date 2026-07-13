@@ -29,3 +29,4 @@ Package,Name,Hyperparameters,diff,F1Learning,F1Test
 11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,0.21,0.994,0.784
 11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,0.224,1.0,0.776
 11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,0.204,1.0,0.796
+25-sklearn.neural,MLP,02-After tuning,0.0,0.0,0.0

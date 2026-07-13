@@ -1,4 +1,5 @@
 Package,Name,Hyperparameters,Learning time
+25-sklearn.neural,MLP,02-After tuning,1.0
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning,5.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,4.0
