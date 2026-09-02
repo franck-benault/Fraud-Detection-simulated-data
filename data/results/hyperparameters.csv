@@ -1,5 +1,5 @@
 Package,Name,Hyperparameters,values,Scaler
-25-sklearn.neural,MLP,02-After tuning,{},StandardScaler
+05-sklearn.linear_model,SGDClassifier,02-After tuning,"{'alpha': 0.001, 'max_iter': 2041}",StandardScaler
 05-sklearn.linear_model,Logistic Regression,02-After tuning,"{'C': 78.475, 'max_iter': 532, 'penalty': None, 'solver': 'newton-cg'}",
 05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,"{'C': 0.0001, 'max_iter': 500, 'penalty': None, 'solver': 'newton-cg'}",
 05-sklearn.linear_model,Logistic Regression,03-penalty-l1-lasso,"{'C': 1, 'max_iter': 50, 'penalty': 'l1', 'solver': 'liblinear'}",
@@ -29,3 +29,4 @@ Package,Name,Hyperparameters,values,Scaler
 11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,"{'learning_rate': 0.01, 'max_depth': 8, 'n_estimators': 1390}",RobustScaler
 11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,"{'learning_rate': 0.05, 'max_depth': 8, 'n_estimators': 1430}",RobustScaler
 11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,"{'learning_rate': 0.01, 'max_depth': 9, 'n_estimators': 1651}",MinMaxScaler
+25-sklearn.neural,MLP,02-After tuning,{},StandardScaler

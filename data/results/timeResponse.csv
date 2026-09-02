@@ -1,5 +1,5 @@
 Package,Name,Hyperparameters,Learning time
-25-sklearn.neural,MLP,02-After tuning,1.0
+05-sklearn.linear_model,SGDClassifier,02-After tuning,0.0
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning,5.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,4.0
@@ -30,3 +30,4 @@ Package,Name,Hyperparameters,Learning time
 11-sklearn.ensemble,GradientBoosting,05-NearMissV1 Undersampling,1386.0
 11-sklearn.ensemble,GradientBoosting,06-NearMissV2 Undersampling,1379.0
 11-sklearn.ensemble,GradientBoosting,07-Smote Oversampling,1702.0
+25-sklearn.neural,MLP,02-After tuning,1.0
