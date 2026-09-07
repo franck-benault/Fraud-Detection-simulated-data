@@ -1,10 +1,12 @@
 Package,Name,Hyperparameters,Learning time
-05-sklearn.linear_model,SGDClassifier,02-After tuning,0.0
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning,5.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,4.0
 05-sklearn.linear_model,Logistic Regression,03-penalty-l1-lasso,1.0
+05-sklearn.linear_model,SGDClassifier,02-After tuning,0.0
 06-sklearn.neighbors,KNeighborsClassifier,02-After tuning,0.0
+07-sklearn.svm,LinearSVC,02-After tuning,0.0
+07-sklearn.svm,LinearSVC,03-Random Undersampling,0.0
 07-sklearn.svm,SVC,02-After tuning,48.0
 08-sklearn.tree,Decision Tree,02-After tuning,1.0
 08-sklearn.tree,Decision Tree,03-Random Undersampling,0.0
