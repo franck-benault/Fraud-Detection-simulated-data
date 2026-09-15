@@ -1,5 +1,4 @@
 Package,Name,Hyperparameters,Learning time
-07-sklearn.svm,SVC-kernel-01linear,03-Random Undersampling,2.0
 04-sklearn.naive_bayes,GaussianNB,01-Default,0.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning,5.0
 05-sklearn.linear_model,Logistic Regression,02-After tuning-no-penalty,4.0
@@ -9,6 +8,9 @@ Package,Name,Hyperparameters,Learning time
 07-sklearn.svm,LinearSVC,02-After tuning,0.0
 07-sklearn.svm,LinearSVC,03-Random Undersampling,0.0
 07-sklearn.svm,SVC-kernel-01linear,02-After tuning,6.0
+07-sklearn.svm,SVC-kernel-01linear,03-Random Undersampling,2.0
+07-sklearn.svm,SVC-kernel-02poly,02-After tuning,7.0
+07-sklearn.svm,SVC-kernel-02poly,03-Random Undersampling,3.0
 08-sklearn.tree,Decision Tree,02-After tuning,1.0
 08-sklearn.tree,Decision Tree,03-Random Undersampling,0.0
 08-sklearn.tree,Decision Tree,04-Random Oversampling,0.0
