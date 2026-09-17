@@ -12,6 +12,8 @@ Package,Name,Hyperparameters,F1
 07-sklearn.svm,SVC-kernel-01linear,03-Random Undersampling,0.6539
 07-sklearn.svm,SVC-kernel-02poly,02-After tuning,0.605
 07-sklearn.svm,SVC-kernel-02poly,03-Random Undersampling,0.6025
+07-sklearn.svm,SVC-kernel-03rbf,02-After tuning,0.6505
+07-sklearn.svm,SVC-kernel-03rbf,03-Random Undersampling,0.649
 08-sklearn.tree,Decision Tree,02-After tuning,0.7412
 08-sklearn.tree,Decision Tree,03-Random Undersampling,0.7108
 08-sklearn.tree,Decision Tree,04-Random Oversampling,0.6784

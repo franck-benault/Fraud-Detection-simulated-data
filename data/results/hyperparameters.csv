@@ -10,6 +10,8 @@ Package,Name,Hyperparameters,values,Scaler
 07-sklearn.svm,SVC-kernel-01linear,03-Random Undersampling,"{'kernel': 'linear', 'C': 1}",StandardScaler
 07-sklearn.svm,SVC-kernel-02poly,02-After tuning,"{'kernel': 'poly', 'C': 1, 'degree': 4}",StandardScaler
 07-sklearn.svm,SVC-kernel-02poly,03-Random Undersampling,"{'kernel': 'poly', 'C': 1, 'degree': 4}",StandardScaler
+07-sklearn.svm,SVC-kernel-03rbf,02-After tuning,"{'kernel': 'rbf', 'C': 100, 'gamma': 0.01}",StandardScaler
+07-sklearn.svm,SVC-kernel-03rbf,03-Random Undersampling,"{'kernel': 'rbf', 'C': 100, 'gamma': 0.01}",StandardScaler
 08-sklearn.tree,Decision Tree,02-After tuning,"{'criterion': 'entropy', 'max_depth': 11, 'min_samples_leaf': 9, 'min_samples_split': 2}",
 08-sklearn.tree,Decision Tree,03-Random Undersampling,"{'criterion': 'entropy', 'max_depth': 9, 'min_samples_leaf': 4, 'min_samples_split': 13}",
 08-sklearn.tree,Decision Tree,04-Random Oversampling,"{'criterion': 'entropy', 'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 7}",
